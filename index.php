@@ -4,7 +4,7 @@ get_header();
 <body>
 
 <!-- navBar section -->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
 
 		<div class="navbar-header">
@@ -22,20 +22,172 @@ get_header();
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="navBarTarget">
 			<ul class="nav navbar-nav navbar-left">
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
+				<li>
+                    <a href="#" class="specialRedColor">Link 1</a>
+                </li>
+				<li>
+                    <a href="#">Link 2</i></a>
+                </li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 
 	</div><!-- /.container-fluid -->
-</div>
+</nav>
 <!-- END of navBar section -->
 
-<!-- TopCool Section -->
-<!-- END of TopCool Section -->
+<!-- socialMedia -->
 
-<!-- Balon section -->
-<!-- END of Balon -->
+<!-- END of socialMedia -->
+
+<!-- OurProduct Section -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="specialRedColor">Our Product</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="owl-carousel-1" class="owl-carousel">
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+        </div><!-- END of #owl-carousel-1 -->
+    </div><!-- END of .row -->
+
+    <div class="row">
+        <div id="owl-carousel-2" class="owl-carousel">
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+        </div><!-- END of #owl-carousel-1 -->
+    </div><!-- END of .row -->
+
+    <div class="row">
+        <div id="owl-carousel-3" class="owl-carousel">
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+        </div><!-- END of #owl-carousel-1 -->
+    </div><!-- END of .row -->
+
+    <div class="row">
+        <div id="owl-carousel-4" class="owl-carousel">
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_gold.jpg" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/a_silver.jpg" alt=""/>
+            </div>
+        </div><!-- END of #owl-carousel-1 -->
+    </div><!-- END of .row -->
+
+    <div class="row">
+        <div id="owl-carousel-5" class="owl-carousel">
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/stars.png" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/stars.png" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/stars.png" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/stars.png" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/stars.png" alt=""/>
+            </div>
+            <div class="owl-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/images/stars.png" alt=""/>
+            </div>
+        </div><!-- END of #owl-carousel-1 -->
+    </div><!-- END of .row -->
+</div>
+<!-- END of OurProduct Section -->
+
 
 
 <!-- How to order -->
@@ -94,13 +246,13 @@ get_header();
 	</div><!-- END of .row -->
 
 	<div class="row">
-		<form role="form">
+		<form role="form" id="contactForm">
 
 			<div class="col-xs-6">
 
 				<div class="form-group">
 					<label for="name">Name</label>
-					<input type="name" class="form-control" id="name" name="name" placeholder="Enter Name">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
 				</div>
 				<div class="form-group">
 					<label for="email">Email</label>
