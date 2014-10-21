@@ -240,8 +240,8 @@ get_header();
 	</div><!-- END of .row -->
 
 	<div class="row">
-		<div class="col-xs-4 text-right specialBlackColor"><p><img src="<?php echo get_template_directory_uri(); ?>/asset/images/whatsapp.png" alt=""/>+62 812 892 205 22</p></div>
-		<div class="col-xs-4 text-center specialBlackColor"><p><img src="<?php echo get_template_directory_uri(); ?>/asset/images/blackberry.png" alt=""/>7D0F8F24</p></div>
+		<div class="col-xs-4 text-right specialBlackColor"><p><img src="<?php echo get_template_directory_uri(); ?>/asset/images/whatsapp.png" height="50"  alt=""/>+62 812 892 205 22</p></div>
+		<div class="col-xs-4 text-center specialBlackColor"><p><img src="<?php echo get_template_directory_uri(); ?>/asset/images/blackberry.png" height="50"  alt=""/>7D0F8F24</p></div>
 		<div class="col-xs-4 text-left specialBlackColor"><p><img src="<?php echo get_template_directory_uri(); ?>/asset/images/line.png" height="50" alt=""/>INDO.BALON</p></div>
 	</div><!-- END of .row -->
 
